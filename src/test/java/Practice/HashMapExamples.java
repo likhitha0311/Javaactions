@@ -12,6 +12,14 @@ public class HashMapExamples {
 		m1.put(1, "A");
 		m1.put("A", "B");
 		System.out.println(m1);
+		
+		
+		TreeMap m2= new TreeMap();
+		m2.put(1, "A");
+		m2.put("A", "B");
+		System.out.println(m1);
+		
+		 m2.entrySet().iterator();
 
 	}
 
