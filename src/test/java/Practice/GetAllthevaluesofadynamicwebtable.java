@@ -32,6 +32,18 @@ for(int i=1;i<=rowdata.size();i++)
 	}
 }
 
+List<Integer> list = new ArrayList<>();
+
+list.add(12);
+		list.add(122);
+		list.add(121);list.add(1233);
+
+		for(int i:list)
+		{
+			System.out.println(i);
+		}
+
+
 
 	}
 
