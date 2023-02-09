@@ -43,7 +43,7 @@ list.add(12);
 
 		for(int i:list)
 		{
-			System.out.println(i);
+			System.out.println(list);
 		}
 
 
