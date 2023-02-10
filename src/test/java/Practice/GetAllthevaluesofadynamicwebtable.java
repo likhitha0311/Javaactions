@@ -46,18 +46,7 @@ list.add(12);
 			System.out.println(list);
 		}
 
-		System.out.println("Commit-1");
-		System.out.println("Commit-2");
-		System.out.println("Commit-6");
-		System.out.println("Commit-7");
-		System.out.println("Commit-8");
-		System.out.println("Commit-91");
-		System.out.println("Commit-92");
-		System.out.println("Commit-93");
-		System.out.println("103");
-		System.out.println("104");
-		System.out.println("Thid branch 1");
-		System.out.println("Fourth branch here ");
+		
 >>>>>>> Likhitha-Thirdfeaturebranch
 	}
 
