@@ -12,6 +12,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class GetAllthevaluesofadynamicwebtable {
 
 	public static void main(String[] args) throws InterruptedException {
+		List<Integer> list = new ArrayList<>();
+		list.add(12);
+		list.add(122);
+		list.add(121);
+		list.add(1233);
+		addMembers(list);
+		
+
 WebDriverManager.chromedriver().setup();
 
 WebDriver driver =new ChromeDriver();
@@ -32,22 +40,17 @@ for(int i=1;i<=rowdata.size();i++)
 	}
 }
 
-<<<<<<< HEAD
-		System.out.println("This is a test");
-		System.out.println("check 2 ");
-=======
-List<Integer> list = new ArrayList<>();
+	}
 
-list.add(12);
-		list.add(122);
-		list.add(121);list.add(1233);
+		private static addMembers(List<Integer> list)
+		{
 
 		for(int i:list)
 		{
 			System.out.println("Elements of array "+list);
 		}
-		System.out.println("check ");
->>>>>>> Likhitha-Thirdfeaturebranch
+
+
 	}
 
 }
