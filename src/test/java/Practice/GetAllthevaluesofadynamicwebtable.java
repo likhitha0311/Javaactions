@@ -45,6 +45,7 @@ list.add(12);
 		{
 			System.out.println("Elements of array "+list);
 		}
+		System.out.println("check ");
 >>>>>>> Likhitha-Thirdfeaturebranch
 	}
 
