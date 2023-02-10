@@ -47,6 +47,7 @@ list.add(12);
 		}
 
 		System.out.println("Commit-1");
+		System.out.println("Commit-2");
 
 >>>>>>> Likhitha-Thirdfeaturebranch
 	}
