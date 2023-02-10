@@ -43,10 +43,8 @@ list.add(12);
 
 		for(int i:list)
 		{
-			System.out.println(list);
+			System.out.println("Elements of array "+list);
 		}
-
-		
 >>>>>>> Likhitha-Thirdfeaturebranch
 	}
 
