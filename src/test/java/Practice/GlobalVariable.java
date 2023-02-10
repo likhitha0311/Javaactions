@@ -5,7 +5,10 @@ public class GlobalVariable {
 	static int a;
 	static int m=80;
 
-	
+	public GlobalVariable()
+	{
+	}
+
 	public static void display()
 	{
 		int a=10;
